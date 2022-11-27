@@ -1,0 +1,48 @@
+#inner-body {
+    position:relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    margin-top: 200px;
+    margin-left:100px;
+    margin-right:100px;
+    padding: 20px;
+    background-color: #718bf3;
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    transition: transform 1s;
+  }
+  
+  .onclick1 {
+      position: absolute;
+      transform: translate(800px, -1000px);
+  }
+  .onclick2 {
+    position: absolute;
+    transform: translate(600px, -1000px);
+}
+.onclick3 {
+    position: absolute;
+    transform: translate(400px, -1000px);
+}
+.onclick4 {
+    position: absolute;
+    transform: translate(200px, -1000px);
+}
+.onclick5 {
+    position: absolute;
+    transform: translate(0px, -1000px);
+}
+
+  #circle {
+    background: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    border-radius: 50%;
+    z-index: 1;
+}
